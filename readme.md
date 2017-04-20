@@ -1,3 +1,1 @@
-# Reacther
-
-Check weather app using axion api
+# Boilerplate React App
