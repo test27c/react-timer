@@ -8,8 +8,8 @@ var Controls = React.createClass({
     return () => {
       this.props.onStatusChange(newStatus);
     }
-  }
-  ,render: function () {
+  },
+  render: function () {
     var {countdownStatus} = this.props;
     var renderStartStopButton = () => {
       if (countdownStatus === 'started') {
